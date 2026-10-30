@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "renolin-evanchelin",
     "public": "dist/re-invitation/browser",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
