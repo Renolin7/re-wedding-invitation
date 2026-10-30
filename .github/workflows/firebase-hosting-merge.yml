@@ -23,3 +23,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RENOLIN27_3C2FE }}
           channelId: live
           projectId: renolin27-3c2fe
+          target: renolin-evanchelin

@@ -24,3 +24,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RENOLIN27_3C2FE }}
           projectId: renolin27-3c2fe
+          target: renolin-evanchelin

@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "renolin27-3c2fe"
+  },
+  "targets": {
+    "renolin27-3c2fe": {
+      "hosting": {
+        "renolin-evanchelin": [
+          "renolin-evanchelin"
+        ]
+      }
+    }
   }
 }
