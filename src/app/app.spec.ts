@@ -22,6 +22,7 @@ describe('App', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Renolin');
     expect(compiled.querySelector('#letter-title')?.textContent).toContain('this day is whole');
     expect(compiled.querySelector('.letter-signoff')?.textContent).toContain('Renolin & Evanchelin');
+    expect(compiled.querySelector('#story + .mobile-photo-section + #events')).toBeTruthy();
     expect(compiled.querySelector('.visitor-list')).toBeNull();
     expect(compiled.querySelector('.travel-note strong')?.textContent).toContain('Before the first hymn');
   });
